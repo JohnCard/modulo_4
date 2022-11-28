@@ -1,0 +1,119 @@
+/* Enlace para colores hexagecimales y rgb: https://www.w3.org/wiki/CSS/Properties/color/keywords */
+
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+}
+
+/* Ejercicio de la semana */
+
+img{
+    border: 13px ridge rgb(0, 0, 255);
+    border-radius: 50px;
+    width: 400px;
+    background-image: url(/centro_img/cesped.jpg);
+}
+
+.clase-uno{
+    display: inline-block;
+    /* float: right; */
+    width: 500px;
+    margin: 100px;
+    background-color: rgb(85,107,47);
+    padding: 20px;
+    border: 12px ridge rgb(37, 111, 9); 
+    border-radius: 30px;
+}
+
+article{
+    background-color: #ff0000;
+    padding: 13px;
+    margin-top: 25px;
+    border: 13px ridge rgb(255,0,0);
+    border-radius: 60px;
+}
+
+footer,main,header{
+    background-color: #a52a2a;
+    padding: 20px;
+    margin-top: 25px;
+    border: 13px ridge rgb(139,69,19);
+    border-radius: 50px;
+}
+
+dd,dt{
+    color: 	#696969;
+    font-family: 'Rubik Distressed', cursive;
+    line-height: 25px;
+    text-shadow: 5px 5px 10px black;
+    word-spacing: 8px;
+}
+dd{
+    text-decoration-line: underline;
+    text-align: center;
+}
+a:link{
+    color: #c71585;
+    letter-spacing: 4px;
+    word-spacing: 7px;
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+    line-height: 35px;
+    text-shadow: 5px 5px 15px #191970;
+}
+a:hover{
+    color: #ff00ff;
+    text-decoration: wavy;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 10px black;
+}
+
+a:visited{
+    color: #ff0000;
+}
+a:active{
+    color: #9400d3;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-shadow: 8px 8px 10px #2f4f4f;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Rubik Microbe', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 9px;
+    line-height: 30px;
+    letter-spacing: 3px;
+    text-shadow: 9px 9px 15px #696969;
+}
+
+header>h1:hover,div.clase-uno:hover{
+    background-color: rgb(34,139,34);
+    padding: 15px;
+    border: 15px 15px;
+    border-style: ridge;
+    border-color: rgb(0,100,0);
+    border-radius: 30px;
+    border-width: 10px;
+}
+
+main>article[id]:hover{
+    background-color: rgb(128,0,0);
+    padding: 15px;
+    border: 15px 15px;
+    border-style: ridge;
+    border-color: rgb(139,0,0);
+    border-radius: 30px;
+    border-width: 10px;
+}
+
+footer:hover,main:hover,header:hover{
+    background-color: rgb(0,128,128);
+    border-color: rgb(70,130,180);
+    padding: 22px;
+}
+

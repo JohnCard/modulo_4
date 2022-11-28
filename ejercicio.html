@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Oswald:wght@400;500;700&family=Rubik+Distressed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Oswald:wght@400;500;700&family=Rubik+Distressed&family=Rubik+Microbe&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Orbitron:wght@500&family=Oswald:wght@400;500;700&family=Rubik+Distressed&family=Rubik+Microbe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ejercicio.css">
+    <title>ejercicio_semanal</title>
+
+    <!--
+        Actividad:
+        - Utilizar las propiedades CSS de color y aplicar valores con RGB y hexadecimales
+    -->
+</head>
+<body>
+    <!--
+        ¡ACLARACIONES URGENTES!:
+        .- Etiqueta "<aside> que siempre se encunetra en la parte superior de la html y contiene la navegación y busqueda asi como la etiqueta también header</aside>"
+        .- Etiqueta "las etiquetas section utilizalas dentr de las etiquetas article"
+    -->
+
+    <!-- Ejercicio de la semana (week_excersice) -->
+
+    <!-- Cabeza de la página -->
+    <header>
+        <h1 id="home">Quetal, en esta ocasión toca halbar sobre las distintas mecánicas que maneja el juego de Minecraft</h1> 
+        <img src="/centro_img/Pigscene.webp" alt="cuadro de minecraft" width="300px" height="400px">
+        <div class="clase-uno">
+        <h2>Índice&colon;</h2>
+            <nav class="clase-2">
+                    <a href="#mecanicas_basicas"><strong>Mecánicas básicas</strong></a><br>
+                    <a href="#movimiento">Movilidad</a><br>
+                    <a href="#combate_mineria">Combate y minería</a><br>
+                    <a href="#player_state">Estado del jugador</a><br>
+                    <a href="#mecanicas_complejas"><strong>Mecánicas complejas</strong></a><br>
+                    <a href="#bosques">Relacionadas a bosques</a><br>
+                    <a href="#entidades_estructuras">Entidades y estructuras</a><br>
+                    <a href="#sin_especificar">Sin especificar</a>
+            </nav>
+        </div>
+    </header>
+
+    <hr size="10px">
+    <!-- Cuerpo de nuestra página -->
+    <main>
+            <h2 id="mecanicas_basicas">Mecánicas básicas</h2>
+
+            <article id="movimiento">
+                <h3>Movimientos</h3>
+                <dl>
+                    <dt>Arrastrase:</dt>
+                    <dd>Los jugadores pueden cambiar a una posición prona (boca abajo) de 0,6 bloques de altura, para encajar en espacios de 1 altura.</dd>
+
+                    <dt>Volar:</dt>
+                    <dd>En Modo Creativo y Modo Espectador, los jugadores pueden volar pueden volar por un mundo.</dd>
+
+                    <dt>Deslizamiento:</dt>
+                    <dd>Los jugadores llevando unos Élitros pueden deslizarse por el mundo, utilizando opcionalmente Cohetes de fuegos artificiales para ganar velocidad y/o altura.</dd>
+                </dl>
+            </article>
+
+            <article id="combate_mineria">
+                <h3>Combate y minería</h3>
+                <dl>
+                    <dt>Bloquear:</dt>
+                    <dd>Los jugadores pueden bloquear ataques usando escudos.</dd>
+
+                    <dt>Daño:</dt>
+                    <dd>Las entidades pueden recibir daño de los jugadores o del entorno, y potencialmente morir o ser destruidas si reciben demasiado.</dd>
+
+                    <dt>Recompensas:</dt>
+                    <dd>Entidades y mobs para soltar elementos o bloques particulares (incluidos los elementos que llevan en su inventario) cuando mueren o son destruidos.</dd>
+                </dl>
+            </article>
+
+            <article id="player_state">
+                <h3>Estado del jugador</h3>
+                <dl>
+                    <dt>Experiencia:</dt>
+                    <dd>Los jugadores acumulan puntos de experiencia de varias fuentes y pueden usarlos para encantar o reparar elementos.</dd>
+
+                    <dt>Modos de juego:</dt>
+                    <dd>Cambia la forma de jugar e interactuar con un mundo y sus contenidos.</dd>
+
+                    <dt>Salud (health):</dt>
+                    <dd>Los jugadores, mobs y algunas otras entidades tienen una cantidad específica de puntos de salud (que se muestran en un indicador de GUI); cuando todos estos son eliminados por daño, un jugador o mob muere, mientras que otras entidades se rompen o destruyen.</dd>
+                </dl>
+            </article>
+<br>
+            <h2 id="mecanicas_complejas">Mecánicas complejas</h2>
+
+            <article id="bosques">
+                <h3>Relacionadas a bosques</h3>
+                <dl>
+                    <dt>Mecánicas de RedStone o piedra rojiza:</dt>
+                    <dd>Las mecánicas de redstone permiten a los jugadores construir y usar dispositivos complejos en el juego, compuestos por múltiples bloques y entidades que interactúan.</dd>
+
+                    <dt>Circuitos de RedStone:</dt>
+                    <dd>Tipos básicos de submecanismos utilizados para el procesamiento de eventos, la lógica y la interacción con el entorno.</dd>
+
+                    <dt>Componenetes de RedStone:</dt>
+                    <dd>Cualquier componente que permita crear mecanismos.</dd>
+                </dl>
+            </article>
+
+            <article id="entidades_estructuras">
+                <h3>Entidades y estructuras</h3>
+                <dl>
+                    <dt>Aldeas y aldeanos:</dt>
+                    <dd>NPC humanoides con un comportamiento moderadamente complejo, que se ocupan de varias otras entradas en esta lista.</dd>
+
+                    <dt>Comercio:</dt>
+                    <dd>Los jugadores pueden usar esmeraldas para comprar objetos de los aldeanos, o venderles artículos a cambio de esmeraldas.</dd>
+
+                    <dt>Invasión:</dt>
+                    <dd>Si un jugador se acerca a una aldea mientras tiene el estado mal presagio, puede invocar una invasión extendida contra la aldea.</dd>
+                </dl>
+            </article>
+
+            <article id="sin_especificar">
+                <h3>Sin especificar</h3>
+                <dl>
+                    <dt>Tinte:</dt>
+                    <dd>Los tintes se aplican a varios bloques, elementos y partículas para modificar el color que usan sus texturas.</dd>
+
+                    <dt>Dificultad:</dt>
+                    <dd>Una opción que tiene un impacto directo en la facilidad de juego, lo que permite que los desafíos del juego se adapten al nivel de habilidad del jugador.</dd>
+
+                    <dt>Renovabilidad:</dt>
+                    <dd>Se refiere a la posibilidad de obtener un objeto o bloque varias veces en los modos Supervivencia o Aventura.</dd>
+                </dl>
+            </article>
+
+    </main>
+
+    <hr size="10px"> 
+    <!-- Pie footer de nuestra página (sugerencias para el usuario en relación al contenido anteriormente mostrado) -->
+    <footer>
+        <hgroup>
+            <h4>Pie de la página html</h4>
+            <h4>También puedes visitar los siguientes sitios</h4>
+        </hgroup>
+        <img src="/centro_img/Ninja Fight.jpg" alt="ninja-fight">
+        <nav class="clase-uno clase-dos">
+                <a href="#">Juegos de Dragon Ball</a><br>
+                <a href="#">Nuevos juegos en linea</a><br>
+                <a href="#">Todo sobre Call of Duty</a><br>
+                <a href="#">Eventos para jugar en campeonatos y eventos presenciales</a><br>
+                <a href="#">Organizaciones para MineCraft</a><br>
+                <a href="#home">Volver a casa</a>
+        </nav>
+    </footer>
+</body>
+</html>
